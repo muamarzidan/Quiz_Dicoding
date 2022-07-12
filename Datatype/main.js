@@ -87,16 +87,16 @@ module.exports = evenNumber;
  *     - priceInJPY dengan nilai currency JPY
  */
 
- const priceInJPY = 5000;
+const priceInJPY = 5000;
 
  // TODO
  // make a variabel for cureency
- const currency = new Map([
-     ["USD", 14000],
-       ["JPY", 131],
-       ["SGD", 11000],
-       ["MYR", 3500],
- ]);
+const currency = new Map([
+    ["USD", 14000],
+      ["JPY", 131],
+      ["SGD", 11000],
+      ["MYR", 3500],
+]);
 
 //  make a const for priceInIDR and use get to take a value from key "JPY" anda use *(multiple) to multiply it with priceInJPY
 const priceInIDR = currency.get("JPY") * priceInJPY;
