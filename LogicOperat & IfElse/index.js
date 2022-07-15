@@ -17,10 +17,10 @@
  *          Gunakan variabel yang sudah disediakan.
  *
  */
-
+// initialization name function and put the param score
 function scoreChecker(score) {
 let result = "";
-    
+// Make a logic to get the result using if else statement
 if(score >= 90) {
     result = "Selamat! Anda mendapatkan nilai A."
     } else if(score >= 80) {
@@ -33,7 +33,7 @@ if(score >= 90) {
         result = "Anda mendapatkan nilai E."
 }
     // Jangan hapus kode ini
-    return result;
+return result;
 }console.log(scoreChecker(20));
 /**
  * Jangan hapus kode di bawah ini

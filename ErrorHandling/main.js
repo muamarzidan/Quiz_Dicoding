@@ -44,15 +44,16 @@
 
 
 // TODO 1
-
+// initialization the class ValidationError then extends to error class
 class ValidationError extends Error{
-  constructor(message){
+  constructor(message){ // using constructor to set the message
   super(message);
   this.name="ValidationError";
   }
 }
   
   // TODO 2
+  // initialization the fun and use param a b c to validate the input
 function validateNumberInput(a,b,c){
   if(typeof(a) !== "number"){
     throw new ValidationError("Argumen pertama harus number")
@@ -62,10 +63,10 @@ function validateNumberInput(a,b,c){
     throw new ValidationError("Argumen ketiga harus number")
   }
 }
-  
+// make a logic for get the triangle type
   const detectTriangle = (a, b, c) => {
     // TODO 3
-       try{
+      try{
       validateNumberInput(a,b,c)
       
       if (a === b && b === c ) {

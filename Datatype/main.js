@@ -90,7 +90,7 @@ module.exports = evenNumber;
 const priceInJPY = 5000;
 
  // TODO
- // make a variabel for cureency
+ // make a variabel like array for currency
 const currency = new Map([
     ["USD", 14000],
       ["JPY", 131],

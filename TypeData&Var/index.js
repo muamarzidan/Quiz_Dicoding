@@ -12,16 +12,18 @@
 /**
  * Jangan hapus kode di bawah ini
  */
+/* initialization every var to write in console*/
+const firstName = "zidan";
+const lastName = "Aro";
+const age = 17;
+const isMarried = false;
 
- const firstName = "zidan";
- const lastName = "Aro";
- const age = 17;
- const isMarried = false;
- 
- console.log(firstName);
- console.log(lastName);
- console.log(age);
- console.log(isMarried);
- module.exports = {
-   firstName, lastName, age, isMarried,
- };
+// then cosole.log every var
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(isMarried);
+
+module.exports = {
+  firstName, lastName, age, isMarried,
+};
